@@ -21,7 +21,7 @@ export default {
           this.message = `request successfull going to answer page`;
          setTimeout(() => {
             this.$router.push(`/answer_page`);
-         }, 2000);
+         }, 100);
         })
         .catch((error) => {
           this.message = error[`message`];

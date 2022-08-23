@@ -11,6 +11,7 @@
 <script>
 import cookies from "vue-cookies";
     export default {
+  
        mounted () {
         if(cookies.get(`answer`) && cookies.get(`expression`)){
             this.answer = cookies.get(`answer`);
